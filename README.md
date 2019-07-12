@@ -1,5 +1,6 @@
 # eyetrackercalibration
 Eyetracker calibration for Chait lab on Friday 12 July 2019 (SIJIA ZHAO)
+Note that these codes and the description are very specific to the eyetracker setup at Chait lab on 12 July 2019.
 
 ## PROCEDURE
 A 30-second-resting block was conducted on a subject wearing a pair of black dot stickers at her eye positions. The diameter of the black dot was 5mm. 
