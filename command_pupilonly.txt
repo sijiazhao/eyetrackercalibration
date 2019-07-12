@@ -1,0 +1,34 @@
+#####################################################
+ 
+## force_corneal_reflection = <Value>
+;; Hides "Pupil" mode button on Camera Setup screen
+;; Pupil Only mode should only be used in EyeLink 1000 when
+participants head is completely fixed.
+;; Default Value: OFF
+force_corneal_reflection OFF
+ 
+## allow_pupil_without_cr = <switch>
+;; Allows pupil without a CR nearby to be detected
+;; in pupil search (after pupil loss or on startup).
+;; This command is overridden in P-CR mode.
+allow_pupil_without_cr = ON
+ 
+## elcl_hold_if_no_corneal = <switch>
+;; If true, eye window is frozen until both pupil and CR are
+present.
+;; Default Value: OFF
+elcl_hold_if_no_corneal = OFF
+ 
+## elcl_search_if_no_corneal = <switch>
+;; If corneal missing for long period, assumes false target and
+searches for pupil/CR candidate.
+;; Default Value: OFF
+elcl_search_if_no_corneal = OFF
+ 
+## elcl_use_pcr_matching = <switch>
+;; Selects enhanced pupil-CR matching during pupil identification.
+;; If used, pupil and CR are selected as best matching pair.
+;; This can be used even if CR is not being used for tracking.
+;; Default Value: ON
+elcl_use_pcr_matching = OFF
+#####################################################
